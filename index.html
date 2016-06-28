@@ -3,12 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen">
-    <title>Word Game</title>
+    <title>HANGMAN</title>
   </head>
   <body>
-    <div class="guessbox">
-    </div>
-    <div class="deathbox">
+    <div class="gamebox">
+      <h2>HANGMAN</h2>
+      <div class="guessbox">
+      </div>
+      <section class="alerts">
+        <div class="deathbox">
+        </div>
+        <p class = "tries">
+          more tries...
+        </p>
+      </section>
+      <section class="failures">
+        <p>
+          already guessed:
+        </p>
+        <div class="triesbox">
+        </div>
+      </section>
+
     </div>
     <script type="text/javascript" src="js/common-words.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

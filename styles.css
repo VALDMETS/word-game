@@ -1,3 +1,55 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: #81d520;
+  text-align: center;
+  font-size: 3vw; }
 
+.wrong5 {
+  background-color: #d5cb20; }
+
+.wrong3 {
+  background-color: #d58320; }
+
+.wrong1 {
+  background-color: #d52320; }
+
+.gamebox {
+  width: 70%;
+  height: 50vw;
+  margin: 2% auto;
+  border: 3px solid white;
+  border-radius: 10px; }
+
+.gamebox h2 {
+  font-size: 6vw;
+  letter-spacing: 1.5vw; }
+
+.gamebox p {
+  margin: 0; }
+
+.guessbox {
+  font-size: 7vw; }
+
+.deathbox {
+  display: inline-block; }
+
+.alerts {
+  padding-top: 20%;
+  display: block;
+  float: left;
+  width: 40%; }
+
+.alerts p {
+  display: inline-block; }
+
+.failures {
+  padding-top: 20%;
+  display: block;
+  float: right;
+  width: 40%; }
+
+.failures p {
+  font-size: 2vw; }
 
 /*# sourceMappingURL=styles.css.map */
